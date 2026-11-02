@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+   
+nav{
+    display: flex;
+    justify-content: end;   
+    background-color: #5E83AE;
+;
+    
+}
+nav a {
+    margin: 15px;
+    margin-top: 15px;
+    color: #5E83AE;
+    background-color: #f9f5eddc;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.selpi{
+    height: 700px;
+    width: 700px;
+}
+.saske{
+    width: 400px;
+    height: 400px;
+    margin-top: 500px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E83AE;
+    font-size: 28px;
+}
+.myDesc{
+    padding: 15px;
+    background-color: #f9f5eddc;
+    color: #5E83AE;
+    border-radius: 10px;
+}
+.abtm, .Contacts{
+    background-color:#f9f5eddc ;
+}
+.abtCloud, .projImg, .contactImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cloud, .projLabel, .contactLabel{
+   width: 30vw;
+    height:30vh;
+}
+.myChar{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f5eddc;
+    font-size: 28px;
+   padding-bottom: 20px;
+   
+}
+.me, .focus {
+     padding: 50px;
+    background-color: #5E83AE;
+    color: #f9f5eddc;
+    border-radius: 10px;
+    font-size: 28px;
+    margin: 10px;
+}
+.proj{
+    background-color: #5E83AE;
+    }
+  
+.prototype {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.prototype img{
+width: 100%;
+    max-width: 700px;
+    max-height: 700px;
+}
+.prototype h2 {
+    text-align: center;
+    background-color:#5E83AE ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color:#f9f5eddc ;
+}
+ .proj1, .proj2, .proj3 {
+    padding: 15px;
+    background-color: #f9f5ed77;
+    color: #5E83AE;
+    border-radius: 20px;
+    margin: 20px;
+ }
+
+    

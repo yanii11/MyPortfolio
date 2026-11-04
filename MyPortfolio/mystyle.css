@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  background-color: #5e83ae;
+}
+nav a {
+  text-decoration: none;
+  margin: 15px;
+  margin-top: 15px;
+  color: #5e83ae;
+  background-color: #f9f5eddc;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0 5px 15px #304359;
+}
+.selpi {
+  height: auto;
+  width: 600px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5e83ae;
+  font-size: 28px;
+  padding-bottom: 100px;
+}
+.home h1,
+p {
+  color: #f9f5eddc;
+}
+
+.btn {
+  text-decoration: none;
+  margin-top: 20px;
+  width: fit-content;
+  padding: 20px;
+  background-color: #f9f5eddc;
+  color: #5e83ae;
+  font-size: smaller;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px #304359;
+}
+.btn a {
+  text-decoration: none;
+}
+a:hover,
+.btn:hover {
+  padding: 18px;
+  transition: 0.1s;
+}
+
+.home a {
+  color: #5e83ae;
+}
+/*ABOUT ME*/
+.abtm,
+.Contacts {
+  background-color: #f9f5eddc;
+  padding-bottom: 100px;
+}
+.abtCloud,
+.projImg,
+.contactImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cloud,
+.projLabel,
+.contactLabel {
+  width: 30vw;
+  height: 30vh;
+}
+.myChar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f5eddc;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.me,
+.focus {
+  padding: 40px;
+  background-color: #5e83ae;
+  color: #f9f5eddc;
+  border-radius: 10px;
+  font-size: 28px;
+  margin: 10px;
+  box-shadow: 0 5px 15px #304359;
+}
+.me:hover,
+.focus:hover {
+  padding: 60px;
+  transition: 0.1s;
+}
+/*PROJECT*/
+.proj {
+  background-color: #5e83ae;
+  padding-bottom: 100px;
+}
+
+.prototype,
+.contConatainer1,
+.contConatainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prototype img {
+  width: 100%;
+  max-width: 700px;
+  max-height: 700px;
+  
+}
+.prototype h2 {
+  text-align: center;
+  background-color: #5e83ae;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: #f9f5eddc;
+}
+.proj1,
+.proj2,
+.proj3 {
+  padding: 15px;
+  background-color: #f9f5ed77;
+  color: #5e83ae;
+  border-radius: 20px;
+  margin: 20px;
+ 
+}
+.proj1:hover,
+.proj2:hover,
+.proj3:hover {
+  padding: 30px;
+  transition: 0.1s;
+   box-shadow: 0 5px 15px #304359;
+}
+.contConatainer0 {
+  background-color: #5e83ae;
+  border-radius: 30px;
+  width: min-content;
+  
+}
+.contConatainer0:hover {
+  padding: 30px;
+  transition: 0.1s;
+   box-shadow: 0 5px 15px #304359;
+}
+
+.CN,
+.GH,
+.loc,
+.EA {
+  padding: 15px;
+  background-color: #f9f5edce;
+  color: #5e83ae;
+  border-radius: 20px;
+  margin: 20px;
+  height: 150px;
+  width: 230px;
+  text-align: center;
+
+}
+.CN:hover,
+.GH:hover,
+.loc:hover,
+.EA:hover{
+  background-color: white;
+  transition: 0.1s;
+  box-shadow: 0 5px 15px #304359;
+} 
+.Contacts p {
+  color: #5e83ae;
+}
+.Contacts a {
+  color: #5e83ae;
+}
+.Contacts {
+  background-color: #f9f5edce;
+  padding-bottom: 100px;
+}

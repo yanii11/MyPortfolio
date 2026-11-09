@@ -201,3 +201,80 @@ a:hover,
   background-color: #f9f5edce;
   padding-bottom: 100px;
 }
+@media (max-width: 768px) {
+
+  nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .selpi {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .myChar {
+    flex-wrap: wrap;
+  }
+
+  .me,
+  .focus {
+    font-size: 22px;
+    padding: 25px;
+  }
+
+  .prototype {
+    flex-direction: column;
+  }
+
+  .CN,
+  .GH,
+  .loc,
+  .EA {
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  .home {
+    font-size: 20px;
+  }
+
+  .Cloud,
+  .projLabel,
+  .contactLabel {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .me,
+  .focus {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .proj1,
+  .proj2,
+  .proj3 {
+    margin: 10px;
+  }
+
+}

@@ -142,7 +142,8 @@ a:hover,
 }
 .proj1,
 .proj2,
-.proj3 {
+.proj3,
+.proj4 {
   padding: 15px;
   background-color: #f9f5ed77;
   color: #5e83ae;
@@ -152,7 +153,8 @@ a:hover,
 }
 .proj1:hover,
 .proj2:hover,
-.proj3:hover {
+.proj3:hover,
+.proj4 :hover {
   padding: 30px;
   transition: 0.1s;
    box-shadow: 0 5px 15px #304359;
@@ -273,7 +275,8 @@ a:hover,
 
   .proj1,
   .proj2,
-  .proj3 {
+  .proj3,
+  .proj4 {
     margin: 10px;
   }
 
